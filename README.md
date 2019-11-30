@@ -23,9 +23,12 @@ Get the Black Friday deals now!⚡
 
 Step 1. Installing Google Authenticator on the VPS
 First off, you need to install the Google Authenticator program and run it as the user you’re going to log in with—preferably not the root account.
-
+,,,
 $ sudo apt-get install libpam-google-authenticator
+'''
+'''
 $ google-authenticator
+'''
 You’ll first be prompted as to whether or not you want to use time-based tokens. The other option is one-time tokens, which is probably not what you want. Type y to use time-based tokens.
 
 Do you want authentication tokens to be time-based (y/n) y
