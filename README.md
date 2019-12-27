@@ -106,7 +106,7 @@ relied upon disabled SSH key authentication, and forced password authentication.
 
 First, hop back into your /etc/pam.d/sshd file and comment out the auth required pam_google_authenticator.so we added earlier. It should look like this:
 
-# auth required pam_google_authenticator.so
+### auth required pam_google_authenticator.so
 
 Now, above that line, add another:
 
