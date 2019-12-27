@@ -120,7 +120,7 @@ AuthenticationMethods publickey,keyboard-interactive
 Finally, restart sshd again.
 
 ```
-$ sudo systemctl restart sshd
+sudo systemctl restart sshd
 ```
 
 Now, when you log into your VPS, you are asked first for the passphrase for your SSH key, followed by your 2FA code. Pretty cool!
