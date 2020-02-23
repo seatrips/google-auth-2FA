@@ -65,6 +65,7 @@ You then need to open /etc/ssh/sshd_config and look for the ChallengeResponseAut
 Either, way the line in question should look like this:
 
 ChallengeResponseAuthentication yes
+
 Finally, you just need to restart sshd.
 
 ```
